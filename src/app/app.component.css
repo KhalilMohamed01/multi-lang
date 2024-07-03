@@ -1,0 +1,32 @@
+.container-fluid {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .left-section {
+    background-color: #f8f9fa;
+    height: 100%;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc; /* Placeholder color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .right-section {
+    padding: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .left-section {
+      display: none;
+    }
+  }
+  

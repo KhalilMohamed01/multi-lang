@@ -1,0 +1,10 @@
+{
+    "LOGIN": {
+      "USERNAME": "Benutzername",
+      "PASSWORD": "Passwort",
+      "FORGOT_PASSWORD": "Passwort vergessen",
+      "LOGIN_BUTTON": "Anmelden",
+      "LOGIN_TITLE": "EXTRANET ATLAS",
+      "WARNING": "Hinweis: Das Passwort ist Groß- und Kleinschreibung beachten."
+    }
+}

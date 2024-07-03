@@ -1,0 +1,14 @@
+<div class="dropdown">
+    <button class="btn btn-dropdown dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+      <img [src]="'assets/flags/' + selectedLang + '.png'" alt="{{ selectedLang }}" width="24" class="me-2"> <span class="selected-lang">{{ selectedLang.toUpperCase() }}</span>
+      <span class="dropdown-arrow"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+      <li *ngFor="let lang of languages" class="dropdown-item-container">
+        <a class="dropdown-item d-flex align-items-center" href="#" [class.active]="lang === selectedLang" (click)="changeLanguage(lang)">
+          <img [src]="'assets/flags/' + lang + '.png'" alt="{{ lang }}" width="24" class="me-2"> {{ lang.toUpperCase() }}
+        </a>
+      </li>
+    </ul>
+  </div>
+  

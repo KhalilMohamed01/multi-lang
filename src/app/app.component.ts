@@ -1,13 +1,19 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { TranslateService, TranslateModule } from '@ngx-translate/core';
+import { SelectLangComponent } from './select-lang/select-lang.component';
+import { CommonModule } from '@angular/common';
+import { LoginFormComponent } from './login-form/login-form.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [LoginFormComponent,CommonModule, SelectLangComponent, TranslateModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'multi-lang-app';
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('en');
+  }
 }

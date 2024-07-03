@@ -1,0 +1,18 @@
+// Import Bootstrap functions and variables
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+// Custom colors
+$primary: #1ba261;
+$secondary: #323232;
+$light: #f8f9fa;
+$dark: #333;
+
+// Import Bootstrap to apply the custom variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Custom styles
+body {
+  background-color: $light;
+}

@@ -1,0 +1,11 @@
+{
+    "LOGIN": {
+      "USERNAME": "Gebruikersnaam",
+      "PASSWORD": "Wachtwoord",
+      "FORGOT_PASSWORD": "Wachtwoord vergeten",
+      "LOGIN_BUTTON": "Inloggen",
+      "LOGIN_TITLE": "EXTRANET ATLAS",
+      "WARNING": "Opmerking: Het wachtwoord is hoofdlettergevoelig."
+    }
+  }
+  

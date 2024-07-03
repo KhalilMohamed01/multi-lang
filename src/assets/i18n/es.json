@@ -1,0 +1,11 @@
+{
+    "LOGIN": {
+      "USERNAME": "Nombre de usuario",
+      "PASSWORD": "Contraseña",
+      "FORGOT_PASSWORD": "¿Olvidaste tu contraseña?",
+      "LOGIN_BUTTON": "Iniciar sesión",
+      "LOGIN_TITLE": "EXTRANET ATLAS",
+      "WARNING": "Nota: La contraseña distingue entre mayúsculas y minúsculas."
+    }
+  }
+  

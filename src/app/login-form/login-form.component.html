@@ -1,0 +1,22 @@
+<div class="card">
+    <div class="card-body">
+      <form>
+        <div class="mb-3">
+          <label for="username" class="form-label">{{ 'LOGIN.USERNAME' | translate }}</label>
+          <input type="text" class="form-control" id="username" placeholder="{{ 'LOGIN.USERNAME' | translate }}">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">{{ 'LOGIN.PASSWORD' | translate }}</label>
+          <input type="password" class="form-control" id="password" placeholder="{{ 'LOGIN.PASSWORD' | translate }}">
+        </div>
+        <div class="mb-3">
+          <small>{{ 'LOGIN.WARNING' | translate }}</small>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">{{ 'LOGIN.LOGIN_BUTTON' | translate }}</button>
+      </form>
+    </div>
+    <div class="card-footer text-center">
+      <a href="#">{{ 'LOGIN.FORGOT_PASSWORD' | translate }}</a>
+    </div>
+  </div>
+  

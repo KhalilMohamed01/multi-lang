@@ -1,0 +1,11 @@
+{
+    "LOGIN": {
+      "USERNAME": "Nom d'utilisateur",
+      "PASSWORD": "Mot de passe",
+      "FORGOT_PASSWORD": "Mot de passe oublié",
+      "LOGIN_BUTTON": "Connexion",
+      "LOGIN_TITLE": "EXTRANET ATLAS",
+      "WARNING": "Attention, le mot de passe est sensible à la casse !"
+    }
+  }
+  
